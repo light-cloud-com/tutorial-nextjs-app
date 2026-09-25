@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Build a self-contained server with only the files it needs.
+  output: "standalone",
 };
 
 export default nextConfig;
